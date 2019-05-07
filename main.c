@@ -42,7 +42,7 @@ int main(){
 	}
 
 	// change the file path
-	infile = fopen("/Users/philipchen/Desktop/WeightMatrix.txt", "r");
+	infile = fopen("/Users/philipchen/eclipse-workspace/Dijkstras", "r");
 
 	while(!feof(infile)){
 		fgets(inLine, maxSize, infile); // get a line from the file
